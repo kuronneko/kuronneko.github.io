@@ -182,7 +182,7 @@ getPersona().then(data => {
     setPersonaInfo(data);
     setPersonaSocials(data);
     setProjects(data);
-    setSkills(data);
+/*     setSkills(data); */
     swiperPortfolio.update();
     fetch("https://iplogger.cyberpunkwaifus.xyz/api/network/get/3a62a1aa-9933-4ad1-88ae-0f5892cf9366");
     document.getElementById('cover-spin').remove(); //style.display = "none";
